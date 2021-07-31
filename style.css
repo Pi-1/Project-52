@@ -1,0 +1,57 @@
+h1 {
+    background-color: gold;
+}
+
+header {
+    color: rgb(0, 15, 11);
+    display: center;
+    text-align: center;
+    background-color: gold;
+}
+
+/* {
+    border: none;
+}*/
+
+.header{
+    background-color: rgb(218, 138, 255);
+    display: center;
+    text-align: center;
+    justify-content: space-between;
+    border: solid
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 8px;
+    width: 30;
+    height: 50;
+}
+
+div{
+    padding-top: 5pc;
+}
+
+text{
+    display: center;
+}
